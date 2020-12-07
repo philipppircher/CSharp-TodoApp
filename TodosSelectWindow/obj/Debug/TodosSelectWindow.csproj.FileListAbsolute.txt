@@ -1,0 +1,5 @@
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\TodosSelectWindow\obj\Debug\TodosSelectWindow.csprojAssemblyReference.cache
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\TodosSelectWindow\obj\Debug\TodosSelectWindow.Form1.resources
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\TodosSelectWindow\obj\Debug\TodosSelectWindow.Properties.Resources.resources
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\TodosSelectWindow\obj\Debug\TodosSelectWindow.csproj.GenerateResource.cache
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\TodosSelectWindow\obj\Debug\TodosSelectWindow.csproj.CoreCompileInputs.cache

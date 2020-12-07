@@ -1,0 +1,15 @@
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\Logic.dll.config
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\Logic.dll
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\Logic.pdb
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\Data.dll
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\EntityFramework.dll
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\Data.pdb
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\Data.dll.config
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\EntityFramework.xml
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\obj\Debug\Logic.csproj.CopyComplete
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\obj\Debug\Logic.dll
+C:\Users\DCV\Desktop\Code\05 C#\TodosApp\Logic\obj\Debug\Logic.pdb
