@@ -13,29 +13,30 @@ namespace Logic
 
         public List<todostable> GetTodosNowUntilXHours(double hours)
         {
-            var timeNow = DateTime.Now;
-            var timeintwohours = DateTime.Now.AddHours(hours);
+            var timeNow = DateTime.Now.AddHours(-1);
+            var hoursDelay = DateTime.Now.AddHours(hours);
 
             List<todostable> todos = todosEntities.todostable.Select(x => x).
-              Where(x => x.setDate >= timeNow && x.setDate <= timeintwohours).ToList();
+              Where(x => x.setDate >= timeNow && x.setDate <= hoursDelay).ToList();
             return todos;
         }
 
         public List<todostable> GetTodosAll()
-        { 
+        {
             List<todostable> todos = todosEntities.todostable.ToList();
             return todos;
         }
 
         public List<todostable> GetTodosDone()
         {
-            List<todostable> todos = (List<todostable>)todosEntities.todostable.Where(s => s.isDone.Equals(true));
+            //return _toDoEntities.todo.Select(x => x).Where(x => x.isdone == isDone).ToList();
+            List<todostable> todos = (List<todostable>)todosEntities.todostable.Select(s => s).Where(s => s.isDone == true).ToList();
             return todos;
         }
 
         public List<todostable> GetTodosNotDone()
         {
-            List<todostable> todos = (List<todostable>)todosEntities.todostable.Where(s => s.isDone.Equals(false));
+            List<todostable> todos = (List<todostable>)todosEntities.todostable.Select(s => s).Where(s => s.isDone == false || s.isDone == null).ToList();
             return todos;
         }
 
@@ -45,6 +46,17 @@ namespace Logic
 
             todosEntities.todostable.Add(todo);
             todosEntities.SaveChanges();
+        }
+
+        public void DeleteTodo(int id)
+        {
+            var todo = todosEntities.todostable.Where(x => x.id == id).FirstOrDefault();
+
+            if (todo != null)
+            {
+                todosEntities.todostable.Remove(todo);
+                todosEntities.SaveChanges();
+            }
         }
     }
 }

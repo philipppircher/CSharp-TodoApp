@@ -40,28 +40,28 @@
             this.dtpDateTime.CustomFormat = "dd/MM/yyyy hh:mm:ss";
             this.dtpDateTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpDateTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDateTime.Location = new System.Drawing.Point(22, 19);
-            this.dtpDateTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpDateTime.Location = new System.Drawing.Point(29, 23);
+            this.dtpDateTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpDateTime.Name = "dtpDateTime";
-            this.dtpDateTime.Size = new System.Drawing.Size(185, 26);
+            this.dtpDateTime.Size = new System.Drawing.Size(245, 30);
             this.dtpDateTime.TabIndex = 0;
             // 
             // rtbTodos
             // 
             this.rtbTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtbTodos.Location = new System.Drawing.Point(22, 56);
-            this.rtbTodos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rtbTodos.Location = new System.Drawing.Point(29, 69);
+            this.rtbTodos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rtbTodos.Name = "rtbTodos";
-            this.rtbTodos.Size = new System.Drawing.Size(185, 175);
+            this.rtbTodos.Size = new System.Drawing.Size(245, 214);
             this.rtbTodos.TabIndex = 1;
             this.rtbTodos.Text = "";
             // 
             // btAdd
             // 
-            this.btAdd.Location = new System.Drawing.Point(22, 258);
-            this.btAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btAdd.Location = new System.Drawing.Point(29, 318);
+            this.btAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btAdd.Name = "btAdd";
-            this.btAdd.Size = new System.Drawing.Size(184, 19);
+            this.btAdd.Size = new System.Drawing.Size(245, 23);
             this.btAdd.TabIndex = 2;
             this.btAdd.Text = "Hinzufügen";
             this.btAdd.UseVisualStyleBackColor = true;
@@ -69,10 +69,10 @@
             // 
             // btTodos
             // 
-            this.btTodos.Location = new System.Drawing.Point(22, 291);
-            this.btTodos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btTodos.Location = new System.Drawing.Point(29, 358);
+            this.btTodos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btTodos.Name = "btTodos";
-            this.btTodos.Size = new System.Drawing.Size(184, 19);
+            this.btTodos.Size = new System.Drawing.Size(245, 23);
             this.btTodos.TabIndex = 3;
             this.btTodos.Text = "Offene Todos anzeigen";
             this.btTodos.UseVisualStyleBackColor = true;
@@ -80,16 +80,15 @@
             // 
             // TodosAddForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(236, 332);
+            this.ClientSize = new System.Drawing.Size(315, 409);
             this.Controls.Add(this.btTodos);
             this.Controls.Add(this.btAdd);
             this.Controls.Add(this.rtbTodos);
             this.Controls.Add(this.dtpDateTime);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TodosAddForm";
-            this.Text = "Add Todos Window";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
